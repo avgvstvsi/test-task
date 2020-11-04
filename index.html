@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <title>Кредитная карта с кешбеком 1,5%</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/14.6.2/nouislider.min.css" integrity="sha512-O3hRQ2OLCWeTZjAqJzcWMwFGDuv/hzjfwgrKm1Q5+RhyM0Y0rhPF7epp5cdQN39zYNwGeNuixF3fE5AhHOiSzA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simplebar/5.3.0/simplebar.min.css" integrity="sha512-uZTwaYYhJLFXaXYm1jdNiH6JZ1wLCTVnarJza7iZ1OKQmvi6prtk85NMvicoSobylP5K4FCdGEc4vk1AYT8b9Q==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body class="body">
+    
+        <header class="header">
+            <div class="container container-large">
+                <div class="header-label">
+                    <div class="header-label__logo">
+                        <a href="#">
+                            <img src="img/raiff_logo.svg" alt="Логотип" class="logo-img">
+                        </a>
+                    </div>
+                    <div class="header-label__visa">
+                        <a href="#">
+                            <img src="img/visa_logo.svg" alt="Visa">
+                        </a>
+                    </div>
+                </div>
+                <div class="header-contacts">
+                    <a href="tel:88007707562">8 800 770-75-62</a>
+                    <span>Бесплатно по России</span>
+                </div>
+                <div class="header-contacts mobile">
+                    <a href="tel:tel:88007707562"></a>
+                </div>
+            </div>
+        </header>
+        <article class="banner" style="background-image: url('img/banner.jpg')">
+            <picture>
+                <source srcset="img/banner_mob.jpg 1x" media="(max-width: 768px)" type="image/jpg">
+                <img src="img/banner.jpg">
+            </picture>
+            <div class="banner-content">
+                <div class="container">
+                    <div class="stiker"><span class="free-service">Бесплатное</span> обслуживание <span class="cost-service">0₽</span></div>
+                    <h1>Кредитная карта <br> с кэшбэком</h1>
+                    <span class="extra-big-text">1,5<span>%</span></span>
+                    <a href="#" class="btn">Оформить онлайн</a>
+                </div>
+            </div>
+        </article>
+        <article class="advantages">
+            <div class="container">
+                <div class="row w-100 justify-content-between">
+                    <div class="advantages-item">
+                        <span class="big-text">
+                            1,5<span>%</span>
+                        </span>
+                        <p class="p2">кэшбэк рублями</p>
+                    </div>
+                    <div class="advantages-item">
+                        <span class="big-text">
+                            0₽
+                        </span>
+                        <p class="p2">обслуживание</p>
+                    </div>
+                    <div class="advantages-item">
+                        <span class="big-text">
+                            <span>до</span> 52 <span>дней</span>
+                        </span>
+                        <p class="p2">без процентов</p>
+                    </div>
+                    <div class="advantages-item">
+                        <span class="big-text">
+                            <span>до</span> 600 <span>тыс. ₽</span>
+                        </span>
+                        <p class="p2">кредитный лимит</p>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article class="cashback">
+            <div class="container">
+                <h2>Кэшбэк 1,5% без ограничений</h2>
+                <div class="row">
+                    <div class="col-md-12 col-lg-4 cashback-item-wrapper">
+                        <div class="cashback-item">
+                            <h4>Кэшбэк <br> рублями</h4>
+                            <img src="img/rub.png" alt="Кэшбэк рублями" class="rub">
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-lg-4 cashback-item-wrapper">
+                        <div class="cashback-item">
+                            <h4>За любые <br> покупки</h4>
+                            <img src="img/bag.png" alt="За любые покупки" class="bag">
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-lg-4 cashback-item-wrapper">
+                        <div class="cashback-item">
+                            <h4>Без лимитов <br> и ограничений</h4>
+                            <img src="img/car.png" alt="Без лимитов и ограничений" class="car">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article class="credit grey-block">
+            <div class="container">
+                <h2>Возьмите дополнительный кредит</h2>
+                <p class="subtitle">Кредит на любые цели. Получите решение за 2 минуты</p>
+                <div class="credit-calculator">
+                    <div class="credit-calculator__sliders">
+                        <div class="calculator-row">
+                            <div class="calculator-row__top">
+                                <p class="p2">Какая сумма нужна?</p>
+                                <span class="credit-value">500 000 ₽</span>
+                            </div>
+                            <div class="calculator-row__slider sum calculator-row__slider-sum"></div>
+                            <div class="calculator-row__bottom">
+                                <span class="bottom-value">90 000 ₽</span>
+                                <span class="bottom-value">2 000 000 ₽</span>
+                            </div>
+                        </div>
+                        <div class="calculator-row">
+                            <div class="calculator-row__top">
+                                <p class="p2">На какой срок?</p>
+                                <span class="credit-value">36 мес.</span>
+                            </div>
+                            <div class="calculator-row__slider term calculator-row__slider-term"></div>
+                            <div class="calculator-row__bottom">
+                                <span class="bottom-value">13 мес.</span>
+                                <span class="bottom-value">60 мес.</span>
+                            </div>
+                        </div>
+                        <p class="p3">Расчет платежа приведен с учетом финансовой защиты. Не является офертой.</p>
+                    </div>
+                    <div class="credit-calculator__conditions">
+                        <div class="conditions-row">
+                            <span class="credit-value">10,99%</span>
+                            <p class="p2">ваша ставка</p>
+                        </div>
+                        <div class="conditions-row">
+                            <span class="credit-value">14 265 ₽</span>
+                            <p class="p2">ежемесячный платёж</p>
+                        </div>
+                        <a href="#" class="btn">Оформить онлайн</a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article class="application">
+            <div class="container">
+                <h2>Оформите карту онлайн</h2>
+                <div class="row">
+                    <div class="col-md-4 application-item-wrapper">
+                        <p class="p2 application-item application-item__1">Заполните онлайн-заявку. <br>
+                             Это займет не больше 5 минут</p>
+                    </div>
+                    <div class="col-md-4 application-item-wrapper">
+                        <p class="p2 application-item application-item__2">Через 2 минуты придет смс <br>
+                             с решением</p>
+                    </div>
+                    <div class="col-md-4 application-item-wrapper">
+                        <p class="p2 application-item application-item__3">Получите карту с бесплатной <br>
+                             доставкой или в отделении</p>
+                    </div>
+                </div>
+            </div>
+            <div class="widget-wrapper">
+                <div class="widget" id="#widget">
+                    <p>Форма заявки на кредитную карту</p>
+                </div>
+            </div>
+        </article>
+        <article class="mobile-bank darkgrey-block">
+            <h2>Удобный мобильный банк</h2>
+            <p class="subtitle">Пользуйтесь услугами онлайн без визита в отделение</p>
+            <div class="container">
+                <div class="row">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="swiper-item">
+                                    <img class="device-img" src="img/device.png" alt="">
+                                    <img src="img/mobile_1.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="swiper-item">
+                                    <img class="device-img" src="img/device.png" alt="">
+                                    <img src="img/mobile_2.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="swiper-item">
+                                    <img class="device-img" src="img/device.png" alt="">
+                                    <img src="img/mobile_3.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="swiper-item">
+                                    <img class="device-img" src="img/device.png" alt="">
+                                    <img src="img/mobile_4.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="swiper-item">
+                                    <img class="device-img" src="img/device.png" alt="">
+                                    <img src="img/mobile_1.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="swiper-item">
+                                    <img class="device-img" src="img/device.png" alt="">
+                                    <img src="img/mobile_2.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="swiper-item">
+                                    <img class="device-img" src="img/device.png" alt="">
+                                    <img src="img/mobile_3.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="swiper-item">
+                                    <img class="device-img" src="img/device.png" alt="">
+                                    <img src="img/mobile_4.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Add pagination -->
+                    <div class="swiper-pagination"></div>
+                    <!-- Add navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                    <a href="#" class="btn">Оформить карту онлайн</a>
+                </div>
+            </div>
+        </article>
+        <footer class="footer">
+                <article class="copyright">
+                    <div class="container">
+                        <p class="p3">© АО «Райффайзенбанк»</p>
+                        <p class="p3">Генеральная лицензия Банка России № 3292 от 17.02.2015. Юридический адрес: 129090, Москва, ул. Троицкая, д. 17, стр. 1</p>
+                    </div>
+                </article>
+                <article class="disclaimer">
+                    <div class="container">
+                        <div class="disclaimer-scroll" data-simplebar>
+                            <p class="p3">Кэшбэк – возврат средств. Кэшбэк начисляется на любые покупки, совершенные по карте VISA Кэшбэк на всё, в размере 1,5 % от суммы расходной операции. Начисленный за календарный месяц кэшбэк выплачивается рублями на счет клиента в течение 7 рабочих дней после окончания соответствующего календарного месяца. Кэшбэк не начисляется за совершение некоторых видов операций согласно правилам программы, размещенным на сайте raif.ru.</p>
+                            <p class="p3">Сроки проведения акции «Бесплатная кредитная карта «Кэшбэк на всё» для существующих и новых клиентов АО «Райффайзенбанк» — с <norb>01.06.20</norb> по <norb>31.08.20</norb>. Информация об организаторе акции, о правилах ее проведения, количестве призов или выигрышей по результатам такой акции, сроках, месте и порядке их получения размещена на на raif.ru или по <norb>8 800 770 09 08</norb>.</p>
+                            <p class="p3">В течение льготного периода до 52 дней, проценты по кредиту не начисляются на безналичные операции при условии своевременного внесения минимальных платежей и полного погашения задолженности последнего отчетного периода.  Ставка <norb>19-49%</norb> годовых определяется индивидуально по результатам оценки кредитоспособности клиента и категории совершаемых клиентом операций по карте. Лимит кредита возобновляемый <norb>15 000-600 000 руб.</norb>, срок действия лимита не ограничен сроком действия кредитной карты. Кредитный договор действует до момента исполнения сторонами своих обязательств. Комиссии: за процессинг по картам, подключенным к программе лояльности: не взимается по акции/ вне акции 1490 руб. в год по основной карте, 500 рублей в год по дополнительной карте; за выдачу наличных в банкоматах банка и банков-партнеров – 3% от суммы снятия +300 руб/ в иных банкоматах – <norb>3,9 % +300 руб.</norb>; за переводы на карты банка/на карты других банков — 3% от суммы перевода+300 руб.; за квази-кэш-операции—3% от суммы операции + 300 руб.; за сервис «уведомление об операциях» - 60 руб. по основной/45 руб. по дополнительной карте в мес.; за совершение операции за рубежом в валюте, отличной от валюты счета — 1,65% от суммы операции; за внесение наличных денежных средств через кассу банка — 100 руб. (при внесении до 10 000 руб.).Банк принимает решение о предоставлении кредита на основании всей полученной информации и требований к заемщику. Действительно на <norb>01.06.20</norb>. АО «Райффайзенбанк» 0+</p>
+                        </div>
+                        
+                    </div>
+                    
+                </article>
+        </footer>
+
+        <a class="btn fixed-btn">Оформить онлайн</a>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/14.6.2/nouislider.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/simplebar/5.3.0/simplebar.min.js" integrity="sha512-AS9rZZDdb+y4W2lcmkNGwf4swm6607XJYpNST1mkNBUfBBka8btA6mgRmhoFQ9Umy8Nj/fg5444+SglLHbowuA==" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        <script src="js/main.js"></script>
+</body>
+</html>
